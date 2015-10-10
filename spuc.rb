@@ -3,7 +3,7 @@ class Spuc < Formula
   homepage "http://pyspuc.com"
   url "https://github.com/audiofilter/spuc/archive/2.4.1.tar.gz"
   version "2.4.1"
-  sha256 "188b1d0677f9ad0a8fc3e60d709206e95de0cad2dfc3b6340efedcd47a23e4cb"
+  sha256 "d9668fea5ebad521f4d492e8ea9ff1ce548333ca58daa5f5d7919aa9ca0bd00d"
 
   depends_on "cmake" => :build
   depends_on :x11 # if your formula requires any X11/XQuartz components
