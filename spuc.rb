@@ -1,8 +1,8 @@
 class Spuc < Formula
   desc "A C++ library for filters, equalizers and other DSP blocks"
   homepage "http://pyspuc.com"
-  url "https://github.com/audiofilter/spuc/archive/2.4.0.tar.gz"
-  version "2.4.0"
+  url "https://github.com/audiofilter/spuc/archive/2.4.1.tar.gz"
+  version "2.4.1"
   sha256 "188b1d0677f9ad0a8fc3e60d709206e95de0cad2dfc3b6340efedcd47a23e4cb"
 
   depends_on "cmake" => :build
