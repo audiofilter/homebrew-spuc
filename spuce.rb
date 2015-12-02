@@ -2,10 +2,9 @@ class Spuce < Formula
   desc "A C++ library for DSP filters"
   homepage "http://pyspuc.com"
   head "https://github.com/audiofilter/spuce.git"
-  url "https://github.com/audiofilter/spuce/archive/0.4.tar.gz"
-  version "0.4"
-  sha256 "70e488772e70b20bf3f51cdf098ca4a64552275e840842cb1f81c7aad513409e"
-
+  url "https://github.com/audiofilter/spuce/archive/0.4.1.tar.gz"
+  version "0.4.1"
+  sha256 "7e0cf0b5b0212be7347fbc620b61250fdf2701ad9425831c00ea4b26aee7c1e1"
   depends_on "cmake" => :build
 
   def install
