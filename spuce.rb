@@ -4,7 +4,7 @@ class Spuce < Formula
   head "https://github.com/audiofilter/spuce.git"
   url "https://github.com/audiofilter/spuce/archive/0.4.2.tar.gz"
   version "0.4.2"
-  sha256 "7e0cf0b5b0212be7347fbc620b61250fdf2701ad9425831c00ea4b26aee7c1e1"
+  sha256 "3eeacc4cb993ba77bd5c706c11bdf440c94344b93b479b8583305cc1b48b384b"
   depends_on "cmake" => :build
 
   def install
