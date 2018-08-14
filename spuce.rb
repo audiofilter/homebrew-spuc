@@ -7,7 +7,7 @@ class Spuce < Formula
   sha256 "5688e107b57640ba0485790d64eb16bff855f54f6fa5b2fdab568ee91f6dc687"
 
   depends_on "cmake" => :build
-  depends on "qt5"
+  depends_on "qt5"
   
   def install
     qt5 = Formulary.factory 'qt5'
